@@ -1,5 +1,5 @@
 # nest-enum-escaping
-When typeorm encounters an enum that has an apostraphe inside an enum of strings, it forms an incorrect query that will not run. The num in question is [here](https://github.com/duckies/nest-enum-escaping/blob/master/src/character.entity.ts).
+When typeorm encounters an enum that has an apostraphe inside an enum of strings, it forms an incorrect query that will not run. The code to generate this is [here](https://github.com/duckies/nest-enum-escaping/blob/master/src/character.entity.ts).
 
 # Error Message
 ```
